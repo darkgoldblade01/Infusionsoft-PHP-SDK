@@ -105,7 +105,7 @@ class Infusionsoft {
 	 *
 	 * @return Authorize
 	 */
-	protected function authorize() {
+	public function authorize() {
 		return new Authorize($this->options);
 	}
 
@@ -116,7 +116,7 @@ class Infusionsoft {
 	 *
 	 * @return Contacts
 	 */
-	protected function contacts() {
+	public function contacts() {
 		return new Contacts($this->options);
 	}
 
@@ -129,7 +129,7 @@ class Infusionsoft {
 	 *
 	 * @return Contact
 	 */
-	protected function contact(string $contactId) {
+	public function contact(string $contactId) {
 		return new Contact($this->options, $contactId);
 	}
 
@@ -140,7 +140,7 @@ class Infusionsoft {
 	 *
 	 * @return Campaigns
 	 */
-	protected function campaigns() {
+	public function campaigns() {
 		return new Campaigns($this->options);
 	}
 
@@ -151,7 +151,7 @@ class Infusionsoft {
 	 *
 	 * @return Ecommerce
 	 */
-	protected function ecommerce() {
+	public function ecommerce() {
 		return new Ecommerce($this->options);
 	}
 
