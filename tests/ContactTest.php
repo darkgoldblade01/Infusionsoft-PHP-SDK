@@ -28,7 +28,7 @@ final class ContactTest extends TestCase {
 	 */
 	public function testCreateContact() {
 
-		$contact = [
+	    $contact = [
 			"given_name" => "Test",
 			"family_name" => "Contact",
 			"email_addresses" => [
