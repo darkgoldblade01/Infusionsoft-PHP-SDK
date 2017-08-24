@@ -24,7 +24,8 @@
     },
     "require-dev": {
         "phpunit/phpunit": "~4.8",
-        "victorjonsson/markdowndocs": "^1.3"
+        "victorjonsson/markdowndocs": "^1.3",
+        "wanfeiyy/dd": "^1.0"
     },
     "autoload": {
         "psr-4": { "darkgoldblade01\\Infusionsoft\\" : "src/" }
