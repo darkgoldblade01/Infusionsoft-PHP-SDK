@@ -4,5 +4,12 @@ language: php
 php:
   - '7.1'
   - nightly
+matrix:
+  allow_failures:
+    - php: nightly
 install:
   - composer install
+script:
+  - mkdir -p build/logs
+after_success:
+  - travis_retry php vendor/bin/coveralls

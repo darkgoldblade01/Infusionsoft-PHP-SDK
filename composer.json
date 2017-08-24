@@ -20,7 +20,8 @@
         "ext-json": "*",
         "ext-mbstring": "*",
         "guzzlehttp/guzzle": "~6.0",
-        "nesbot/carbon": "^1.22"
+        "nesbot/carbon": "^1.22",
+        "satooshi/php-coveralls": "^1.0"
     },
     "require-dev": {
         "phpunit/phpunit": "~4.8",

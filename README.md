@@ -3,10 +3,12 @@
 Master Branch
 
 [![Build Status](https://travis-ci.org/darkgoldblade01/Infusionsoft-PHP-SDK.svg?branch=master)](https://travis-ci.org/darkgoldblade01/Infusionsoft-PHP-SDK)
+[![Coverage Status](https://coveralls.io/repos/github/darkgoldblade01/Infusionsoft-PHP-SDK/badge.svg?branch=master)](https://coveralls.io/github/darkgoldblade01/Infusionsoft-PHP-SDK?branch=master)
 
 Dev Branch
 
 [![Build Status](https://travis-ci.org/darkgoldblade01/Infusionsoft-PHP-SDK.svg?branch=dev)](https://travis-ci.org/darkgoldblade01/Infusionsoft-PHP-SDK)
+[![Coverage Status](https://coveralls.io/repos/github/darkgoldblade01/Infusionsoft-PHP-SDK/badge.svg?branch=dev)](https://coveralls.io/github/darkgoldblade01/Infusionsoft-PHP-SDK?branch=dev)
 
 Infusionsoft PHP API - an easy to use version of the PHP Infusionsoft API using GuzzleHTTP.
 

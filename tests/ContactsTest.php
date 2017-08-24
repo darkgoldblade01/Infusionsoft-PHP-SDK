@@ -5,7 +5,7 @@ use PHPUnit\Framework\TestCase;
 /**
  * @covers Contact
  */
-final class ContactTest extends TestCase {
+final class ContactsTest extends TestCase {
 
 	protected $infusionsoft;
 	protected $contact;
@@ -26,21 +26,10 @@ final class ContactTest extends TestCase {
 	/**
 	 * @return mixed
 	 */
-	public function testCreateContact() {
-
-	    $contact = [
-			"given_name" => "Test",
-			"family_name" => "Contact",
-			"email_addresses" => [
-				[
-					"email" => "test@gmail.com",
-					"field" => "EMAIL1"
-				]
-			]
-		];
-
-		$response = $this->infusionsoft->contacts()->createContact($contact);
-		$this->assertTrue(($response['id'] > 0));
+	public function testListContacts() {
+		$response = $this->infusionsoft->contacts()->listContacts();
+		dd($response);
+		$this->assertTrue();
 		return $response;
 	}
 
