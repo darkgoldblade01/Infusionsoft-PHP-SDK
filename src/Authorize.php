@@ -98,7 +98,7 @@ class Authorize extends Infusionsoft {
 				'grant_type' => 'refresh_token',
 			],
 			'headers' => [
-				'Authorization' => 'Basic' . base64_encode($this->options['client_id'] . ':' . $this->options['client_secret'])
+				'Authorization' => 'Basic ' . base64_encode($this->options['client_id'] . ':' . $this->options['client_secret'])
 			]
 		]);
 		return $request;
